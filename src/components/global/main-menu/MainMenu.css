@@ -1,0 +1,29 @@
+.main-menu {
+  background-color: var(--colour-tertiary);
+}
+
+.main-menu__menu {
+  display: flex;
+  margin: 0;
+  padding: 0 1rem;
+  justify-content: space-between;
+}
+
+.main-menu__menu-item {
+  list-style: none;
+}
+
+.main-menu a {
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: .5rem 1rem;
+  display: inline-block;
+}
+
+.main-menu a:focus,
+.main-menu a:hover {
+  text-decoration: underline;
+  background-color: var(--colour-primary);
+  color: #fff;
+}
